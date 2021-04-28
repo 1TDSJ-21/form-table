@@ -1,0 +1,44 @@
+#container {
+    background-color: #00ffff;
+    margin: 0 20%;
+    height: 690px;
+}
+
+table {
+    width: 100%;
+}
+
+table, th, td {
+    border: 2px solid #000;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 15px;
+}
+
+td {
+    text-align: center;
+}
+
+.img-flag {
+    width: 25%;
+}
+
+tr:nth-child(even) {
+    background-color: #cc87cc;
+}
+
+tr:nth-child(odd) {
+    background-color: #c43737;
+}    
+
+th {
+    background-color: #d0f3e7;
+    color: #000;
+}
+
+tr:hover {
+    background-color: #808080;
+    color: #ffffff;
+}
