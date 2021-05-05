@@ -1,9 +1,22 @@
+/*
+    SELETORES GERAIS
+*/
 #container {
     margin: 0 20%;
     background-color: #ffe4c4;
     height: 900px;
 }
 
+
+/*
+    SELETORES GERAIS
+*/
+
+
+
+/*
+  TABELA
+*/
 table {
     width: 100%;
 }
@@ -47,3 +60,17 @@ th {
     background-color: #1e90ff;
     color: #000;
 }
+
+/*
+  TABELA
+*/
+
+/*
+  FORMULÁRIO
+*/
+
+
+
+/*
+  FORMULÁRIO
+*/
