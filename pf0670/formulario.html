@@ -13,7 +13,7 @@
 
         <h1>EXEMPLO DE FORMULÁRIO</h1>
 
-        <div>
+        <div class="input-container-all">
             <form action="tabela.html" method="GET">
                 <fieldset class="info">
                     <legend>FORMULÁRIO DE CADASTRO</legend>
@@ -21,7 +21,8 @@
                     <div>
                         <label for="idTxtNm">Nome:</label>
                         <input type="text" name="txtNm" id="idTxtNm" placeholder="Nome" required
-                            oninvalid="setCustomValidity('Esse campo deve ser preenchido!')">
+                            oninvalid="setCustomValidity('Esse campo deve ser preenchido!')"
+                            pattern="^[a-zA-ZáàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ ]{3,}$">
                     </div>
                     <div>
                         <label for="idTxtEmail">Email:</label>
