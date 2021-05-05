@@ -1,0 +1,38 @@
+/*
+RESET BÁSICO
+*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 16px;
+}
+
+/*
+RESET BÁSICO
+*/
+
+
+/*
+    SELETORES GERAIS
+*/
+#container {
+    margin: 0 20%;
+    background-color: #ffe4c4;
+    height: 900px;
+}
+
+/*
+    SELETORES GERAIS
+*/
+
+
+/*
+    FORM
+*/
+input[type=text]:invalid {
+    background-color: #dc143c;
+}
+
+/*
+    FORM
+*/

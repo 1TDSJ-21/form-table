@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>FORM</title>
-    <link rel="stylesheet" href="./css/estilo.css">
+    <link rel="stylesheet" href="./css/form.css" type="text/css">
 </head>
 
 <body>
@@ -15,19 +15,21 @@
 
         <div>
             <form action="tabela.html" method="GET">
-                <fieldset>
+                <fieldset class="info">
                     <legend>FORMULÁRIO DE CADASTRO</legend>
 
                     <div>
                         <label for="idTxtNm">Nome:</label>
-                        <input type="text" name="txtNm" id="idTxtNm" placeholder="Nome">
+                        <input type="text" name="txtNm" id="idTxtNm" placeholder="Nome" required
+                            oninvalid="setCustomValidity('Esse campo deve ser preenchido!')">
                     </div>
                     <div>
                         <label for="idTxtEmail">Email:</label>
-                        <input type="email" name="txtEmail" id="idTxtEmail" placeholder="Email">
+                        <input type="email" name="txtEmail" id="idTxtEmail" placeholder="Email" required
+                            oninvalid="setCustomValidity('Esse campo deve ser preenchido com um email válido!')">
                     </div>
                 </fieldset>
-                <fieldset>
+                <fieldset class="gen">
                     <legend>GÊNERO</legend>
                     <div>
                         <div>
@@ -39,11 +41,11 @@
                             <label for="idRdbGenF">Feminino</label>
                         </div>
                         <div>
-                            <input type="radio" name="rdbGen" id="idRdbGenO" value="o">
+                            <input type="radio" name="rdbGen" id="idRdbGenO" value="o" checked="checked">
                             <label for="idRdbGenO">Outros</label>
                         </div>
                 </fieldset>
-                <fieldset>
+                <fieldset class="endereco">
                     <legend>ENDEREÇO</legend>
                     <div>
                         <label for="idSelEstados">Estado:</label>
@@ -53,11 +55,13 @@
                             <option value="sc">Santa Catarina</option>
                             <option value="ba">Bahia</option>
                             <option value="am">Amazona</option>
+                            <option selected value="0">Selecione uma Opção</option>
                         </select>
                     </div>
                     <div>
                         <label for="idTxtRua">Rua:</label>
-                        <input type="text" name="txtRua" id="idTxtRua">
+                        <input type="text" name="txtRua" id="idTxtRua" placeholder="Rua" required
+                            oninvalid="setCustomValidity('Esse campo deve ser preenchido!')">
                     </div>
                 </fieldset>
                 <div>
