@@ -1,0 +1,76 @@
+/*
+    SELETORES GERAIS
+*/
+#container {
+    margin: 0 20%;
+    background-color: #ffe4c4;
+    height: 900px;
+}
+
+
+/*
+    SELETORES GERAIS
+*/
+
+
+
+/*
+  TABELA
+*/
+table {
+    width: 100%;
+}
+
+table,
+th,
+td {
+    border: 2px solid #000;
+    border-collapse: collapse;
+}
+
+th,
+
+td {
+    padding: 15px;
+}
+
+td {
+    text-align: center;
+}
+
+.img-flag {
+    width: 25%;
+}
+
+tr:nth-child(even) {
+    background-color: #d2691e;
+}
+
+tr:nth-child(odd) {
+    background-color: #8fbc8f;
+}
+
+
+tr:hover {
+    background-color: gray;
+    color: #fff
+}
+
+th {
+    background-color: #1e90ff;
+    color: #000;
+}
+
+/*
+  TABELA
+*/
+
+/*
+  FORMULÁRIO
+*/
+
+
+
+/*
+  FORMULÁRIO
+*/

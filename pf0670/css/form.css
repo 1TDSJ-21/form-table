@@ -1,0 +1,60 @@
+/*
+RESET BÁSICO
+*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-size: 16px;
+}
+
+/*
+RESET BÁSICO
+*/
+
+
+/*
+    SELETORES GERAIS
+*/
+#container {
+    margin: 0 20%;
+    background-color: #ffe4c4;
+    height: 900px;
+}
+
+/*
+    SELETORES GERAIS
+*/
+
+
+/*
+    FORM
+*/
+
+.input-container-all label {
+    padding-right: 5%;
+}
+
+.endereco input[type=text] {
+    margin-left: 1.5%;
+}
+
+
+input[type=text],
+input[type=email],
+select {
+
+    outline: none;
+    margin: 0.5% 0;
+    padding: 1% 0;
+    border-radius: 5px;
+
+}
+
+input[type=text]:focus:invalid,
+input[type=email]:focus:invalid {
+    border: 2px solid #dc143c;
+}
+
+/*
+    FORM
+*/
